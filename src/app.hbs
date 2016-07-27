@@ -1,0 +1,11 @@
+<select id="" name="" data-ui="locale">
+    {{#each locales}}
+    <option value="{{locale}}">{{locale}}</option>
+    {{/each}}
+</select>
+
+<ul>
+    <li>{{ngettext "%d cat" "%d cats" 1}}</li>
+    <li>{{ngettext "%d cat" "%d cats" 2}}</li>
+    <li>{{ngettext "%d cat" "%d cats" 5}}</li>
+</ul>
